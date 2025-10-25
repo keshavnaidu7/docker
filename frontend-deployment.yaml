@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: srithar123/skill14:v1   # ✅ Your image
+        image: keshavanaid7/keshava:v1   # ✅ Your image
         ports:
         - containerPort: 8080             # ✅ Must match app’s internal port
 ---

@@ -6,7 +6,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your frontend repo
-    RUN git clone https://github.com/keshavnaidu7/e-commerce-frontend.git .
+    RUN git clone https://github.com/keshavnaidu7/docker.git .
     
     RUN npm install
     RUN npm run build
